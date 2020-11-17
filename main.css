@@ -25,7 +25,7 @@ body {
 .faq,
 .contact {
     margin: 1.5rem auto;
-    width: 97%;
+    width: 95%;
     text-align: center;
     padding: .5rem 1rem;
 }
@@ -55,4 +55,301 @@ h2 {
 
   /* ==== HEADER STYLES ====*/
 
+  .cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat 70% center/cover;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .first-text {
+      padding: .625rem;
+      color: hsla(0, 0%, 100%, .9);
+      background: hsla(100, 0%, 0%, .5);
+  }
+
+  .first-text h1 {
+      font-size: 3.15rem;
+      color: #d2ba87;
+      margin-bottom: 0;
+  }
+
+  .tagline {
+      font-size: 1.25rem;
+      letter-spacing: .15rem;
+  }
+
+  .tagline::after {
+    display: block;
+    content: "";
+    background-color: #fff;
+    height: 1px;
+    width: 12.515625rem;
+    margin: .5rem auto;
+  }
+
+  .date {
+    font-size: 1.25rem;
+    letter-spacing: .15rem;
+    vertical-align: middle;
+  }
+
+.date::before,
+.date::after {
+  display: inline-block;
+  content: "";
+  background-color: #fff;
+  height: 1px;
+  width: 1.5rem;
+  vertical-align: middle;
+  margin: 0 .5rem;
+}
+
+@media (min-width: 768px) {
+
+    .cover {
+      background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat center/cover;
+    }
   
+  }
+
+  @media (min-width: 768px) {
+
+    .first-text {
+      padding: 1.25rem;
+      border-radius: 4px;
+      width: 50%;
+    }
+  
+    .first-text h1 {
+      font-size: 7rem;
+    }
+  
+  }
+  
+  @media (min-width: 768px) {
+
+    .tagline {
+      text-transform: uppercase;
+    }
+  
+  }
+
+/* ==== LOCATIONSSTYLES ====*/
+
+.blurb img {
+    height: 7.5rem;
+  }
+  
+  .blurb h3 {
+    font-weight: 700;
+  }
+  
+  .blurb div {
+    font-family: 'Junge', sans-serif;
+  }
+  
+  .blurb::after {
+    background-color: #444349;
+    display: block;
+    content: "";
+    height: .1800rem;
+    width: 25vw;
+    margin: 1.5rem auto;
+  }
+
+  @media (min-width: 768px) {
+
+    .locations-flex {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: baseline;
+    }
+
+    .blurb {
+        padding: 1.5rem;
+        margin: .5rem;
+    }
+
+    .blurb::after {
+        display: none;
+      }
+    
+    .locations h2 {
+        font-size: 2.55rem;
+    }
+
+    .locations h3 {
+        font-size: 1.25rem;
+    }
+
+    .locations img {
+        height: 6rem;
+    }
+
+    .locations div {
+        font-size: 1rem;
+    }
+
+}
+  /* ==== program styles ====*/
+
+  .program {
+    font-family: 'Junge', sans-serif;
+    background: hsla(100,0%,0%,.6);
+    width: 100vw;
+    text-align: left;
+    color: #d2ba87;
+  }
+
+  .program h2 {
+    font-family: 'Great Vibes', cursive;
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  .program p {
+    font-style: italic;
+  }
+
+  .program ul {
+    letter-spacing: .025rem;
+  }
+
+  @media (min-width: 768px) {
+
+    .program-wrapper {
+      width: 30vw;
+      margin: 0 auto;
+    }
+
+    .program h2 {
+        font-size: 2.55rem;
+    }
+
+    .program div {
+        font-size: 1rem;
+    }
+  
+}
+
+  /* ==== GIFTS STYLES ====*/
+
+  .gifts img {
+    height: 7.5rem;
+  }
+
+  .gifts p:last-child {
+    margin-bottom: 0;
+  }
+
+  @media (min-width: 768px) {
+
+    .gifts h2 {
+        font-size: 2.55rem;
+    }
+
+    .gifts img {
+        height: 6rem;
+    }
+
+    .gifts p {
+        font-size: 1rem;
+    }
+
+  }
+  /* ==== FAQ ====*/
+
+  .faq {
+    background: hsla(100,0%,0%,.6);
+    color: #d2ba87;
+    width: 100vw;
+    text-align: center;
+  }
+
+  .faq h2 {
+    margin-top: 1rem;
+  }
+
+  .faq p {
+    font-family: 'Junge', sans-serif;
+    text-align: left;
+  }
+
+  .question-group::after {
+    content: "";
+    display: block;
+    height: .1875rem;
+    width: 50vw;
+    margin: 1.5rem auto;
+    background-color: #d2ba87;
+  }
+
+  .question {
+    font-weight: 700;
+    margin-bottom: .5rem;
+  }
+  
+  .answer {
+    margin-bottom: 1.5rem;
+  }
+
+  @media (min-width: 768px) {
+
+    .faq-flex {
+      display: flex;
+      justify-content: space-around;
+      align-items: baseline;
+    }
+
+    .question-group::after {
+        display: none;
+    }
+
+    .question-group {
+        padding: 1.5rem;
+        margin: .5rem;
+        width: 30%;
+    }
+
+    
+
+}
+  /* ==== FOOTER STYLES ====*/
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100vw;
+    background-color: #606060;
+    color: #fff;
+    font-family: 'Junge', sans-serif;
+    text-align: center;
+    font-size: .875rem;
+    padding: .5rem 1rem;
+  }
+
+  footer p {
+    margin-bottom: 0;
+  }
+  
+  footer small {
+    line-height: 1.5;
+  }
+
+  @media (min-width: 768px) {
+
+    footer {
+      min-height: 7vh;
+    }
+  
+  }
+
+  @media (min-width: 768px) {
+
+    
