@@ -1,0 +1,58 @@
+/* ==== GENERAL STYLES ====*/
+
+* {
+    box-sizing: border-box;
+}
+
+h1,h2,h3,
+ul,ol,
+p,
+img {
+    margin-bottom: 1.5rem;
+}
+
+body {
+    background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png') repeat center;
+    color: #444349;
+    font-family: 'Libre Baskerville', Arial;
+    line-height: 1.5;
+    font-size: 1.125rem;
+}
+
+.locations,
+.program,
+.gifts,
+.faq,
+.contact {
+    margin: 1.5rem auto;
+    width: 97%;
+    text-align: center;
+    padding: .5rem 1rem;
+}
+
+h1,
+h2 {
+  font-family: 'Great Vibes', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    font-size: 3rem;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: #bd806e;
+  }
+
+  a:hover {
+    color: #eda087;
+    transition: color .15s ease-in-out;
+  }
+
+  /* ==== HEADER STYLES ====*/
+
+  
