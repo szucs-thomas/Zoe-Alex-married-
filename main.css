@@ -314,11 +314,38 @@ h2 {
         margin: .5rem;
         width: 30%;
     }
-
-    
-
 }
-  /* ==== FOOTER STYLES ====*/
+
+    @media (min-width: 768px) {
+
+        .faq h2 {
+            font-size: 2.55rem;
+        }
+
+        .faq h3 {
+            font-size: 1.25rem;
+        }
+
+        .faq p , a {
+            font-size: 1rem;
+        }
+
+    }
+
+    /* ==== QONTACT ====*/
+
+    @media (min-width: 768px) {
+
+        .contact h2 {
+            font-size: 2.55rem;
+        }
+
+        .contact p, a {
+            font-size: 1rem;
+        }
+    }
+
+    /* ==== FOOTER STYLES ====*/
 
   footer {
     display: flex;
@@ -348,8 +375,7 @@ h2 {
       min-height: 7vh;
     }
   
+    footer p, a {
+        font-size: .8rem;
+    }
   }
-
-  @media (min-width: 768px) {
-
-    
